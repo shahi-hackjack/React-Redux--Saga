@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.users
+{ color: Black;
+  border:2px solid black;
+  background-color: white;
+  border-radius: 8px;
+  height:80%;
+  width: 40%;
+  font-size: 21px;
+  position: absolute;
+  top: 10%;
+  left: 28%;
+}
+#userModalRow
+{     margin: 2px;
+
+     padding: 7px;
+    border-bottom: 2px solid grey;
+}
+
+#usersListHeading
+{
+    font-family: 'Bree Serif', serif;
+
+}
+#userListRow
+{ height: 80%;
+    overflow-y:auto;
+    margin: 2px;
+
+}
+#closeImg
+{
+    position: absolute;
+    top: 16px;
+    right: 19px;
+    height: 28px;
+}
+.profileTab{
+    margin-top: 2%;
+    margin-left: 4px;
+    margin-right: 4px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.profileImage
+{
+    height: 63px;
+    border-radius: 50%;
+}
+.hr{
+  padding-bottom: 2%;
+    border-bottom: 1px solid lightgrey;
+}
+.fullname{
+margin-left: 3px;
+    clear: both;
+}
+.locationImage{
+        height: 29px;
+}
+
+.location
+{
+    color: grey;
+font-size: 20px;
+    clear: both;
+}
+
+.following{
+font-family: 'Acme', sans-serif;
+    margin-left: 20px;
+clear: both;
+}
+.follow{
+width: 86px;
+color: #449D44;
+background-color: transparent !important;
+font-family: 'Acme', sans-serif;
+margin-left: 20px;
+clear: both;
+}
+.follow-btn{
+    width: 83px;
+    background-color: white;
+   border-color:#449D44;
+}

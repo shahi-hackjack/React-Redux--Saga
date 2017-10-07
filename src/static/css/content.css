@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+
+.content
+{ color: red;
+    background-color: #1B2830;
+  height:100%;
+}
+#getUserButtonRow{
+    position: absolute;
+    top: 44%;
+    left: 30%;
+}
+.getUserButton{
+    background-color: #44A4DE;
+    color: white;
+    font-family: 'Germania One', cursive;
+    font-size: 21px;
+}
